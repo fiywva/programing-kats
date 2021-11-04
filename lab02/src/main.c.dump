@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="Native" char_bit="8" short_bit="16" int_bit="32" long_bit="64" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="src/main.c"/>
+    <file index="1" name="src/lib.h"/>
+    <tok fileIndex="0" linenr="1" column="1" str="/**x * @mainpagex * # xxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxx * 1. **xxxxxxxxxxxxxxxxxxxx** xxxxxxxxxxxxxx, xxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxx * xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxx (xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxx xxxxxxxxxxxxxx xx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx * xxxxxxxxxxxxxxxx);x *x * 2. **xxxxxxxxxxxxxxxxxxxx** xxxxxxxxxxxxxx, xxxxxx xxxxxxxx xxxxxxxxxxxxxxxx xxxxxxxxxx xxxxxxxxxxxxxxxx xxxx xxxxxxxxxxx *x * @author Davydov V.x * @date 14-apr-2020x * @version 1.3x */"/>
+    <tok fileIndex="0" linenr="15" column="1" str="/**x * @file main.cx * @brief xxxxxxxx xx xxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxx xxxxxxxxxxxxxxxxxx {@link animal} xxxx xxxxxxxxxxxxxxx * xxxxxxxxxxxxxxxxxxxx xxxxxx.x *x * @author Davydov V.x * @date 14-apr-2020x * @version 1.3x */"/>
+    <tok fileIndex="0" linenr="25" column="1" str="#"/>
+    <tok fileIndex="0" linenr="25" column="2" str="include"/>
+    <tok fileIndex="0" linenr="25" column="10" str="&quot;lib.h&quot;"/>
+    <tok fileIndex="0" linenr="27" column="1" str="/** * xxxxxxxxxxxxxx xxxxxxxxxxxxxx. * * xxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxx: * - xxxxxxxxxxxxxxxxxx xxxxxxxxxxxx xxxx {@link ANIMAL_COUNT} xxxxxxxxxxxx * - xxxxxxxxxxxxxxxxxx xxxxxxxxxx xxxxxx xxxxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxx * {@link generate_animal} * - xxxxxxxxxx xxxxxxxxxx xxxxxx xxxxxxxx xxxxxxxxxxxx xxxx xxxxxxxxxx xxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxx * {@link show_animals} * @return xxxxxxxxxxxxxxxx xxxxxx xxxxxxxxxxxxxxxxxxxx xx xxxxxxxxxxxxxxxx (0) */"/>
+    <tok fileIndex="0" linenr="38" column="1" str="int"/>
+    <tok fileIndex="0" linenr="38" column="5" str="main"/>
+    <tok fileIndex="0" linenr="38" column="9" str="("/>
+    <tok fileIndex="0" linenr="38" column="10" str=")"/>
+    <tok fileIndex="0" linenr="39" column="1" str="{"/>
+    <tok fileIndex="0" linenr="40" column="2" str="srand"/>
+    <tok fileIndex="0" linenr="40" column="7" str="("/>
+    <tok fileIndex="0" linenr="40" column="8" str="("/>
+    <tok fileIndex="0" linenr="40" column="9" str="unsigned"/>
+    <tok fileIndex="0" linenr="40" column="18" str="int"/>
+    <tok fileIndex="0" linenr="40" column="21" str=")"/>
+    <tok fileIndex="0" linenr="40" column="22" str="time"/>
+    <tok fileIndex="0" linenr="40" column="26" str="("/>
+    <tok fileIndex="0" linenr="40" column="27" str="0"/>
+    <tok fileIndex="0" linenr="40" column="28" str=")"/>
+    <tok fileIndex="0" linenr="40" column="29" str=")"/>
+    <tok fileIndex="0" linenr="40" column="30" str=";"/>
+    <tok fileIndex="0" linenr="41" column="2" str="struct"/>
+    <tok fileIndex="0" linenr="41" column="9" str="animal"/>
+    <tok fileIndex="0" linenr="41" column="16" str="animals"/>
+    <tok fileIndex="0" linenr="41" column="23" str="["/>
+    <tok fileIndex="0" linenr="41" column="24" str="ANIMAL_COUNT"/>
+    <tok fileIndex="0" linenr="41" column="36" str="]"/>
+    <tok fileIndex="0" linenr="41" column="37" str=";"/>
+    <tok fileIndex="0" linenr="43" column="2" str="for"/>
+    <tok fileIndex="0" linenr="43" column="6" str="("/>
+    <tok fileIndex="0" linenr="43" column="7" str="unsigned"/>
+    <tok fileIndex="0" linenr="43" column="16" str="int"/>
+    <tok fileIndex="0" linenr="43" column="20" str="i"/>
+    <tok fileIndex="0" linenr="43" column="22" str="="/>
+    <tok fileIndex="0" linenr="43" column="24" str="0"/>
+    <tok fileIndex="0" linenr="43" column="25" str=";"/>
+    <tok fileIndex="0" linenr="43" column="27" str="i"/>
+    <tok fileIndex="0" linenr="43" column="29" str="&lt;"/>
+    <tok fileIndex="0" linenr="43" column="31" str="ANIMAL_COUNT"/>
+    <tok fileIndex="0" linenr="43" column="43" str=";"/>
+    <tok fileIndex="0" linenr="43" column="45" str="i"/>
+    <tok fileIndex="0" linenr="43" column="46" str="++"/>
+    <tok fileIndex="0" linenr="43" column="48" str=")"/>
+    <tok fileIndex="0" linenr="43" column="50" str="{"/>
+    <tok fileIndex="0" linenr="44" column="3" str="generate_animal"/>
+    <tok fileIndex="0" linenr="44" column="18" str="("/>
+    <tok fileIndex="0" linenr="44" column="19" str="&amp;"/>
+    <tok fileIndex="0" linenr="44" column="20" str="animals"/>
+    <tok fileIndex="0" linenr="44" column="27" str="["/>
+    <tok fileIndex="0" linenr="44" column="28" str="i"/>
+    <tok fileIndex="0" linenr="44" column="29" str="]"/>
+    <tok fileIndex="0" linenr="44" column="30" str=")"/>
+    <tok fileIndex="0" linenr="44" column="31" str=";"/>
+    <tok fileIndex="0" linenr="45" column="2" str="}"/>
+    <tok fileIndex="0" linenr="46" column="2" str="show_animals"/>
+    <tok fileIndex="0" linenr="46" column="14" str="("/>
+    <tok fileIndex="0" linenr="46" column="15" str="animals"/>
+    <tok fileIndex="0" linenr="46" column="22" str=","/>
+    <tok fileIndex="0" linenr="46" column="24" str="ANIMAL_COUNT"/>
+    <tok fileIndex="0" linenr="46" column="36" str=")"/>
+    <tok fileIndex="0" linenr="46" column="37" str=";"/>
+    <tok fileIndex="0" linenr="48" column="2" str="return"/>
+    <tok fileIndex="0" linenr="48" column="9" str="0"/>
+    <tok fileIndex="0" linenr="48" column="10" str=";"/>
+    <tok fileIndex="0" linenr="49" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+    <suppression errorId="unreadVariable" fileName="*/main.c" />
+    <suppression errorId="knownConditionTrueFalse" fileName="*/main.c" />
+    <suppression errorId="missingIncludeSystem" />
+    <suppression errorId="*" fileName="*/test.c" />
+    <suppression errorId="unmatchedSuppression" fileName="*/main.c" />
+  </suppressions>
