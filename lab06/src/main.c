@@ -1,3 +1,4 @@
+#include<stdio.h>
 #define TXTLENG 5
 int main() {
      
