@@ -1,16 +1,22 @@
-
-#define N1 3
-#define N2 5
-#define N3 7
-
+/* 20 вариант */
 int main(){
- int min_n = 0;
-    if(N1 < N2 && N1 < N3) {
-        min_n = N1;
-	  } else if(N2 < N1 && N2 < N3) {
-        min_n = N2;
-	  } else {
-        min_n = N3;
-    }
+
+int radius = 5;
+int l;
+int s;
+int v;
+float znv = l ;
+#define PI 3.14
+
+if(znv == l){
+ znv = 2 * (float) PI *  radius ;
+}else if(znv == s){
+ znv =  PI  * (float) radius *  radius ;
+}else if(znv == v){
+ znv = 1.33 * (float) PI * radius * radius * radius ;
+}
+
+
 return 0;
 }
+
